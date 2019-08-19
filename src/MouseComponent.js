@@ -9,7 +9,8 @@ export default class MouseComponent extends Component {
   render() {
     return (
       <div className="bar" id="mouse">
-        <canvas id="canvas"></canvas>
+        <canvas id="canvas">
+        </canvas>
       </div>
     )
   }
